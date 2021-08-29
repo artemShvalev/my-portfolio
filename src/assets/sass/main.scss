@@ -1,0 +1,44 @@
+@import 'fonts';
+@import "normalize";
+@import 'vars';
+
+.main {
+  background-color: #242333;
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+  }
+
+  .cont__text {
+    font-family: Sansation, sans-serif;
+    font-size: $fontL;
+    text-align: center;
+    color: $colorText;
+  }
+
+  .container__text-frontend {
+    font-family: Sansation;
+    font-size: $fontS;
+    position: absolute;
+    top: 200px;
+    color: $colorText;
+  }
+  a{
+    text-decoration: none;
+    color: $colorText;
+    font-size:$fontS;
+    font-family: Sansation, sans-serif;
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    left: 25%;
+
+  }
+}

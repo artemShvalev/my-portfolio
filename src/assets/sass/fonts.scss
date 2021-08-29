@@ -1,0 +1,10 @@
+ @font-face {
+    font-family:'Sansation';
+    src: url('/fonts/SansationBold.woff2') format('woff2'),
+         url('/fonts/SansationBold.woff')  format('woff'),
+         url('/fonts/SansationBold.ttf')   format('truetype'),
+         url('/fonts/SansationBold.svg')   format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+  }
